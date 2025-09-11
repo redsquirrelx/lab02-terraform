@@ -10,4 +10,6 @@ resource "docker_container" "db" {
     internal = 5432
     external = var.db-external-port[terraform.workspace]
   }
+
+  env = [ "POSTGRES_PASSWORD=pwd12345" ]
 }
