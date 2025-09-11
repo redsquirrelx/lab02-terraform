@@ -1,11 +1,11 @@
 # Hola
 
 Mi grupo es:
-- Aguilar Chavez Fabricio
-- Melendez Quezada Fabricio
-- Muga Ponce Franco
-- Quispe Cesias Andro
-- Rodriguez Acevedo Emerson
+- Aguilar Chavez Fabricio (fabrilar1)
+- Melendez Quezada Fabricio (FabricioMQ-sys)
+- Muga Ponce Franco (redsquirrelx)
+- Quispe Cesias Andro (AndroJQC)
+- Rodriguez Acevedo Emerson (ron4ldo.Xrdz)
 
 Para aplicar el entorno ejecutar los sig. comandos en el directorio base del repositorio:
 ```
