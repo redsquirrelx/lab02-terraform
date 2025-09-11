@@ -6,4 +6,6 @@ variable "app3_external_port" {}
 
 variable "db-external-port" {}
 
+variable "grafana-external-port" {}
+
 variable "cache-external-port" {}
