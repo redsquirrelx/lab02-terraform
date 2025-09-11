@@ -17,3 +17,8 @@ db-external-port = {
     default = 5432
     dev = 5434
 }
+
+cache-external-port = {
+    default = 6379
+    dev = 6380
+}

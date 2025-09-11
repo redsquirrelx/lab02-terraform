@@ -13,3 +13,15 @@ resource "docker_container" "db" {
 
   env = [ "POSTGRES_PASSWORD=pwd12345" ]
 }
+
+resource "docker_container" "cache" {
+ name  = "cache-${terraform.workspace}"
+ image = "redis:8.2.1"
+  networks_advanced {
+    name = docker_network.persistence_net.name
+  }
+ ports {
+   internal = 6379
+   external = var.cache-external-port[terraform.workspace]
+ }
+}
