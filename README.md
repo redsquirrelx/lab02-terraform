@@ -9,7 +9,7 @@ Mi grupo es:
 
 
 Tenemos el siguiente diagrama: 
-![Diagrama de Infraestructura](<diagrama infraestructura-1.png>)
+![Diagrama de Infraestructura](./diagrama.png)
 
 Para aplicar el entorno ejecutar los sig. comandos en el directorio base del repositorio:
 ```
