@@ -9,8 +9,8 @@ Mi grupo es:
 
 Para aplicar el entorno ejecutar los sig. comandos en el directorio base del repositorio:
 ```
-terraform init
-terraform workspace new dev
-terraform workspace select dev
-terraform apply
+sudo terraform init
+sudo terraform workspace new dev
+sudo terraform workspace select dev
+sudo terraform apply
 ```
