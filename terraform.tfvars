@@ -22,3 +22,8 @@ cache-external-port = {
     default = 6379
     dev = 6380
 }
+
+grafana-external-port = {
+    default = 3000
+    dev = 4000
+}
