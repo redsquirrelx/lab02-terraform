@@ -9,7 +9,7 @@ Mi grupo es:
 
 
 Tenemos el siguiente diagrama: 
-![Diagrama de Infraestructura](./diagrama.png)
+![Diagrama de Infraestructura](./docs/image-3.png)
 
 
 
