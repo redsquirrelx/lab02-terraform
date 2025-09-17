@@ -1,4 +1,4 @@
-# Hola
+# Implementación de una arquitectura
 
 Mi grupo es:
 - Aguilar Chavez Fabricio (fabrilar1)
@@ -8,12 +8,10 @@ Mi grupo es:
 - Rodriguez Acevedo Emerson (ron4ldo.Xrdz)
 
 
-Tenemos el siguiente diagrama: 
+Considerando el siguiente diagrama: 
 ![Diagrama de Infraestructura](./docs/image-3.png)
 
-
-
-Para aplicar el entorno ejecutar los sig. comandos en el directorio base del repositorio:
+Para el provisionamiento, ejecutar los sig. comandos en el directorio base del repositorio:
 ```
 cd iac
 sudo terraform init
