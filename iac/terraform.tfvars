@@ -13,6 +13,11 @@ app3_external_port = {
     dev = 3003
 }
 
+proxy_external_port = {
+    default = 80
+    dev = 89
+}
+
 db-external-port = {
     default = 5432
     dev = 5434
