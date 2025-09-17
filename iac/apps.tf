@@ -15,6 +15,12 @@ resource "docker_container" "app1" {
     internal = 80
     external = var.app1_external_port[terraform.workspace]
   }
+
+  volumes {
+      host_path = abspath("${path.module}/../host_volumes/app1")
+      container_path = "/usr/share/nginx/html"
+      read_only = false
+  }
 }
 
 resource "docker_container" "app2" {
@@ -33,6 +39,12 @@ resource "docker_container" "app2" {
     internal = 80
     external = var.app2_external_port[terraform.workspace]
   }
+
+  volumes {
+      host_path = abspath("${path.module}/../host_volumes/app2")
+      container_path = "/usr/share/nginx/html"
+      read_only = false
+  }
 }
 
 resource "docker_container" "app3" {
@@ -50,5 +62,11 @@ resource "docker_container" "app3" {
   ports {
     internal = 80
     external = var.app3_external_port[terraform.workspace]
+  }
+
+  volumes {
+      host_path = abspath("${path.module}/../host_volumes/app3")
+      container_path = "/usr/share/nginx/html"
+      read_only = false
   }
 }
