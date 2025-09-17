@@ -1,4 +1,5 @@
 host_volumes/
+.vscode
 
 # Local .terraform directories
 .terraform/
