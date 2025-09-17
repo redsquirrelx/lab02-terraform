@@ -11,12 +11,19 @@ Mi grupo es:
 Tenemos el siguiente diagrama: 
 ![Diagrama de Infraestructura](./diagrama.png)
 
+
+
 Para aplicar el entorno ejecutar los sig. comandos en el directorio base del repositorio:
 ```
+cd iac
 sudo terraform init
 sudo terraform workspace new dev
 sudo terraform workspace select dev
 sudo terraform apply
 ```
 
-
+Luego, aplicar la configuración
+```
+cd ../config
+sudo ansible-playbook -i inventory.ini playbook.yaml
+```
